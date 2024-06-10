@@ -11,9 +11,6 @@ Binance_Futures_Scikit_Backtesting is a comprehensive Python project designed to
 - **Optimization**: Optimize strategy parameters using Bayesian optimization with `scikit-optimize` to maximize performance metrics like the Sharpe Ratio.
 - **Backtesting**: Perform backtesting on historical data to evaluate strategy performance, including key metrics like return, drawdown, and trade statistics.
 - **Risk Management**: Implement risk management techniques such as stop-loss, position sizing, and max drawdown limits.
-- **Monte Carlo Simulation**: Conduct Monte Carlo simulations to assess the robustness of strategies under different market conditions.
-- **Walk-Forward Analysis**: Perform walk-forward analysis to validate the strategy's performance over different time periods.
-- **Scenario Analysis**: Analyze strategy performance under various market scenarios (e.g., market crashes, bull markets).
 - **Visualization**: Generate detailed visualizations of backtesting results, including equity curves, trade markers, and performance metrics.
 
 ## Getting Started
