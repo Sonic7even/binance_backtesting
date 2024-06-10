@@ -93,6 +93,62 @@ class Cross(Strategy):
             self.sell(limit=entry_price, tp=tp_price, sl=entry_price * 1.05)
 ```
 
+## Performance Analysis
+
+### Sharpe Ratio
+
+The Sharpe Ratio measures the performance of an investment compared to a risk-free asset, after adjusting for its risk. It's a way to understand the return of an investment per unit of risk taken.
+
+**Formula:**
+\[ \text{Sharpe Ratio} = \frac{R_p - R_f}{\sigma_p} \]
+
+Where:
+- \( R_p \) is the expected portfolio return.
+- \( R_f \) is the risk-free rate (e.g., returns of a U.S. Treasury bond).
+- \( \sigma_p \) is the standard deviation of the portfolio return (a measure of risk).
+
+**Interpretation:**
+- A higher Sharpe Ratio indicates better risk-adjusted performance.
+- A Sharpe Ratio greater than 1 is generally considered good, greater than 2 is very good, and greater than 3 is excellent.
+
+### Sortino Ratio
+
+The Sortino Ratio is similar to the Sharpe Ratio but differentiates harmful volatility from total overall volatility by using the downside risk (standard deviation of negative returns) instead of the standard deviation of all returns.
+
+**Formula:**
+\[ \text{Sortino Ratio} = \frac{R_p - R_f}{\sigma_d} \]
+
+Where:
+- \( R_p \) is the expected portfolio return.
+- \( R_f \) is the risk-free rate.
+- \( \sigma_d \) is the downside deviation (standard deviation of negative returns).
+
+**Interpretation:**
+- The Sortino Ratio provides a more accurate measure of risk-adjusted return for investments that are not normally distributed or have large negative returns.
+- A higher Sortino Ratio indicates better risk-adjusted performance with a focus on downside risk.
+
+### Calmar Ratio
+
+The Calmar Ratio measures the return of an investment relative to its maximum drawdown. It is used to evaluate the risk-adjusted performance of an investment by focusing on the potential for significant losses.
+
+**Formula:**
+\[ \text{Calmar Ratio} = \frac{R_p}{\text{Max Drawdown}} \]
+
+Where:
+- \( R_p \) is the annualized return of the portfolio.
+- Max Drawdown is the maximum observed loss from a peak to a trough of a portfolio before a new peak is attained.
+
+**Interpretation:**
+- A higher Calmar Ratio indicates better performance, as it suggests that the investment is providing good returns relative to the risk of significant losses.
+- Investors typically seek a high Calmar Ratio to ensure that the potential for drawdowns is justified by higher returns.
+
+### Summary
+
+- **Sharpe Ratio**: Measures risk-adjusted returns using the standard deviation of all returns. Higher is better.
+- **Sortino Ratio**: Measures risk-adjusted returns using the standard deviation of negative returns (downside risk). Higher is better and more sensitive to negative returns.
+- **Calmar Ratio**: Measures risk-adjusted returns using the maximum drawdown. Higher is better, focusing on the risk of significant losses.
+
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
