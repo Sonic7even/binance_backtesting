@@ -10,6 +10,8 @@ This is a comprehensive Python project designed to provide a robust framework fo
 - **Strategy Implementation**: Define and implement custom trading strategies using various technical indicators such as SMA, RSI, MACD, and Bollinger Bands.
 - **Optimization**: Optimize strategy parameters using Bayesian optimization with `scikit-optimize` to maximize performance metrics like the Sharpe Ratio.
 - **Backtesting**: Perform backtesting on historical data to evaluate strategy performance, including key metrics like return, drawdown, and trade statistics.
+- **Monte Carlo**: Conduct Monte Carlo simulations to assess the robustness of strategies under different market conditions.
+- **Walk-Forward Analysis**: Perform walk-forward analysis to validate the strategy's performance over different time periods.
 - **Risk Management**: Implement risk management techniques such as stop-loss, position sizing, and max drawdown limits.
 - **Visualization**: Generate detailed visualizations of backtesting results, including equity curves, trade markers, and performance metrics.
 
