@@ -1,4 +1,4 @@
-# Binance_Futures_Scipy_Backtesting.py
+# Backtesting.py x binance_backtesting
 
 ## Description
 
