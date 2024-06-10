@@ -16,13 +16,17 @@ from scipy.stats import normaltest  # type: ignore
 from skopt import gp_minimize  # type: ignore
 from skopt.space import Integer, Real  # type: ignore
 from skopt.utils import use_named_args  # type: ignore
+import warnings
 
-logging.basicConfig(level=logging.DEBUG)
+warnings.filterwarnings('ignore', category=RuntimeWarning)
+warnings.filterwarnings('ignore', category=UserWarning)
+
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-symbol = 'ETHUSDT'
-tframe = '5m'
-days = 360
+symbol = 'ENSUSDT'
+tframe = '15m'
+days = 30
 
 class Cross(Strategy):
     """
@@ -260,3 +264,4 @@ try:
     webbrowser.open(plot_filename)
 except Exception as err:
     logger.error(f"Plot failed {err}")
+
