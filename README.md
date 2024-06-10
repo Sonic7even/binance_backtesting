@@ -1,8 +1,8 @@
-# Backtesting.py x binance_backtesting
+# Backtesting Binance Futures
 
 ## Description
 
-Binance_Futures_Scikit_Backtesting is a comprehensive Python project designed to provide a robust framework for backtesting trading strategies on Binance futures data. Utilizing the `backtesting.py` library, `scikit-optimize` for Bayesian optimization, and various technical analysis tools from the `ta` library, this project enables users to develop, optimize, and analyze trading strategies efficiently.
+This is a comprehensive Python project designed to provide a robust framework for backtesting trading strategies on Binance futures data. Utilizing the `backtesting.py` library, `scikit-optimize` for Bayesian optimization, and various technical analysis tools from the `ta` library, this project enables users to develop, optimize, and analyze trading strategies efficiently.
 
 ## Features
 
