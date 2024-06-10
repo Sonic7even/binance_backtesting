@@ -162,7 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by the robust trading strategies and optimization techniques provided by `backtesting.py` and `scikit-optimize`.
 - Data sourced from Binance Futures API.
 
-## Buy me a coffee:
+## Buy me a coffee :) :
    ### uni swap: sonic7even
    ### XRP(XRP): r9KEE8zj6jxYvArq3H6yReANUYMXX7WhLN
    ### MATIC(Polygon): 0xfE67a6d0b18FE3f910d69d69D31F9B9E24E17951
